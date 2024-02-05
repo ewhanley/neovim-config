@@ -15,6 +15,7 @@ return {
 						u = { name = "UI" },
 						b = { name = "Debugging" },
 						g = { name = "Git" },
+                        h = { name = "Harpoon" },
 					}
 				}
 			)
