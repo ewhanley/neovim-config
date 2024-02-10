@@ -44,3 +44,10 @@ end, "Toggle between light and dark themes")
 
 -- clear after search
 map("n", "<leader>ur", "<cmd>nohl<cr>", "Clear highlighting")
+
+-- from the Primeagen
+map("x", "<leader>p", '"_dP", "Look this up")
+
+map({"n", "v"}, "<leader>y", '"+y', "Copy to system clipboard")
+map("n", "<leader>Y", '"+Y', "Copy to system clipboard")
+map({"n", "v"}, "<leader>d", '"d', "Look this one up, too")
