@@ -12,7 +12,6 @@ return {
 	{
 		"rose-pine/nvim",
 		name = "rose-pine",
-        transparency = "true",
 	},
 
 	"sainnhe/everforest",
