@@ -16,11 +16,14 @@ return {
 		},
 		config = function()
 			-- Set up Mason before anything else
-			require("mason").setup()
+			require("mason").setup({
+				registries = {
+					"lua:mason-registry.index",
+					"github:mason-org/mason-registry",
+					}
+				})
 			require("mason-lspconfig").setup({
 				ensure_installed = {
-					"lua_ls",
-					"pylsp",
 				},
 				automatic_installation = true,
 			})
